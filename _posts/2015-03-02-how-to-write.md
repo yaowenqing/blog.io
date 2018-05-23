@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
-date: 2015-3-02
+title: 系统级程序设计学习笔记（一）
+date: 2018-01-05
 categories: blog
-tags: [标签一,标签二]
+tags: [软件工程,系统级程序设计]
 description: 文章金句。
 ---
 
