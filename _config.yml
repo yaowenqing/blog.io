@@ -26,20 +26,12 @@ zhihu_username:
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs:true
 
-markdown:kramdown
-
-kramdown:
-  input:GFM
-  extensions:
-    -autolink
-    -footnotes
-    -smart
 
 # Defaults for posts
 defaults:
