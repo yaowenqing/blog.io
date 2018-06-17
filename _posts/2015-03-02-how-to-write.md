@@ -3,9 +3,8 @@ layout: post
 title: 系统级程序设计学习笔记（一）
 date: 2018-01-05
 categories: blog
-author：Wenqing
 tags: 系统级程序设计
-
+Description:SSD6
 ---
 
 这个专题的所有学习笔记来自于对武汉大学计算机学院软件工程专业大三上学期的专业必修课《系统级程序设计》的学习（教材为深入理解计算机系统CSAPP），涉及的编程语言全部为C语言和C++语言。
