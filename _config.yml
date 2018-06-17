@@ -6,7 +6,6 @@ description: "君子如风，藏剑西湖"  # 一句话描述你的博客
 baseurl: ""
 url: "yaowenqing.com"  # 此处填写你的博客地址 
 
-markdown:kramdown
 # About/contact
 owner: 
   name: "文卿" # 填写作者信息：名字
@@ -32,15 +31,6 @@ permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-
-
-
-kramdown:
-  input:GFM
-  extensions:
-    -autolink
-    -footnotes
-    -smart
 
 # Defaults for posts
 defaults:
