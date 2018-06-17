@@ -47,8 +47,8 @@ defaults:
 # Sidebar settings
 
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "姚文卿"
-sidebar-avatar: /img/green.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "WHU软件工程专业 姚文卿"
+sidebar-avatar: /img/5.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 
