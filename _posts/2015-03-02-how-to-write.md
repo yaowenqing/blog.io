@@ -25,21 +25,21 @@ description: 文章金句。
 
   - C语言的基本数据类型直接与底层硬件相对应
 
-  * auto关键字显然是摆设
+  - auto关键字显然是摆设
 
-  -表达式中的数组名可以看作是指针
+  - 表达式中的数组名可以看作是指针
 
-  -float被自动扩展为double
+  - float被自动扩展为double
 
-  -不允许嵌套函数（函数内部包含另一个函数的定义）
+  - 不允许嵌套函数（函数内部包含另一个函数的定义）
 
-  -register关键字
+  - register关键字
 
 3.可移植的代码：
 
-★严格遵循标准的：只使用已确定的特性、不突破任何由编译器实现的限制、不产生任何依赖由编译器定义的或未确定的或未定义的特性的输出
+  - ★严格遵循标准的：只使用已确定的特性、不突破任何由编译器实现的限制、不产生任何依赖由编译器定义的或未确定的或未定义的特性的输出
 
-★遵循标准的：可以依赖一些某种编译器特有的不可移植的特性。
+  - ★遵循标准的：可以依赖一些某种编译器特有的不可移植的特性。
 
 所以一个程序有可能在一个特定的编译器里是遵循标准的，但在另一个编译器里不遵循标准。
 
@@ -114,20 +114,22 @@ switch(2){
 
 这称之为fall through，它的意思是：如果case语句后面不加break，就依次执行下去，以满足某些特殊情况的要求。但实际上，这是一个非常不好的特性，因为几乎所有的case都需要以break结尾。
 
-2.a function can't return a function, so you'll never see foo()() 
+2.
 
-a function can't return an array, so you'll never see foo()[] 
+- a function can't return a function, so you'll never see foo()() 
 
-an array can't hold a function, so you'll never see foo[]()
+- a function can't return an array, so you'll never see foo()[] 
+
+- an array can't hold a function, so you'll never see foo[]()
 
 
-a function returning a pointer to a function is allowed: int (* fun())(); 
+- a function returning a pointer to a function is allowed: int (* fun())(); 
 
-a function returning a pointer to an array is allowed: int (* foo())[] 
+- a function returning a pointer to an array is allowed: int (* foo())[] 
 
-an array holding pointers to functions is allowed: int (*foo[])() 
+- an array holding pointers to functions is allowed: int (*foo[])() 
 
-an array can hold other arrays, so you'll frequently see int foo[][]
+- an array can hold other arrays, so you'll frequently see int foo[][]
 
 3.**C语言中存在太多的缺省可见性**
 
