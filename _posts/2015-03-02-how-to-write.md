@@ -60,6 +60,7 @@ const char *ccp;
 ccp = cp;
 ```
 首先，左操作数是一个指向有const限定符的char指针；另外，右操作数是一个指向没有限定符的char指针。而char类型与char类型是相容的，左操作数所指向的类型具有右操作数所指向类型的限定符（实际上为无），再加上自身的限定符（const）。
+
 注意，反过来就不能进行赋值，尝试下面的代码：
 ```
 /*结果会产生编译警告*/
@@ -71,6 +72,7 @@ const float \*类型并不是一个有限定符的类型——它的类型是“
 类似地，const char**也是一个没有限定符的指针类型。它的类型是“指向有const限定符的char类型的指针的指针”。
 
 由于char\*\*和const char\*\*都是没有限定符的指针类型，但它们所指向的类型不一样（前者指向char\*，后者指向const char\*），因此它们是不相容的。
+
 5.const可以用在数据上，如：
 
 ```
@@ -114,15 +116,22 @@ switch(2){
 这称之为fall through，它的意思是：如果case语句后面不加break，就依次执行下去，以满足某些特殊情况的要求。但实际上，这是一个非常不好的特性，因为几乎所有的case都需要以break结尾。
 
 2.a function can't return a function, so you'll never see foo()() 
+
 a function can't return an array, so you'll never see foo()[] 
+
 an array can't hold a function, so you'll never see foo[]()
 
+
 a function returning a pointer to a function is allowed: int (* fun())(); 
+
 a function returning a pointer to an array is allowed: int (* foo())[] 
+
 an array holding pointers to functions is allowed: int (*foo[])() 
+
 an array can hold other arrays, so you'll frequently see int foo[][]
 
 3.C语言中存在太多的缺省可见性。
+
 定义C函数时，在缺省情况下函数的名字是全局可见的。可以在函数的名字前加个冗余的**extern**关键字，也可以不加，效果是一样的。这个函数对于链接到它所在的目标文件的任何东西都是可见的。如果想限制对这个函数的访问，就必须加个static关键字。
 ```
 function apple() 	{/*在任何地方均可见*/}
@@ -130,11 +139,14 @@ extern function pear() {/*任何地方均可见*/}
 static function turnip() {/*在这个文件之外不可见*/}
 ```
 事实上，几乎没有人有在函数名前添加存储类型说明符的习惯，所以绝大多数函数都是全局可见的。
+
 根据实际经验，这种缺省的全局可见性多次被证明是个错误，这已经盖棺定论。软件对象在大多数情况下应该缺省地采用有限可见性。当程序员需要让它全局可见时，应该采用显式的手段。
 
 4.C语言中许多符号是被“重载”的——在不同的上下文环境里有不同的意义。甚至有些关键字也被重载而具有好几种意义，这也是C语言的范围规则对程序员不那么清晰的主要原因。下面的图展示了C语言中类似的符号是如何具有多种不同意义的。
+
 ![C语言中的符号重载现象]
 
 下面的图展示了C语言运算符优先级存在的问题。
+
 ![C语言运算符优先级存在的问题]
 
