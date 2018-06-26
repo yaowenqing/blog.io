@@ -75,7 +75,12 @@ description: 学习笔记。
 
 命题逻辑的推理规则：
 
+![example](https://raw.githubusercontent.com/yaowenqing/blog.io/master/img/math_3.jpg)
+![example](https://raw.githubusercontent.com/yaowenqing/blog.io/master/img/math_4.jpg)
+
 量化命题的推理规则：
+
+![example](https://raw.githubusercontent.com/yaowenqing/blog.io/master/img/math_5.jpg)
 
 ### 证明导论
 - 直接证明法
@@ -97,7 +102,8 @@ description: 学习笔记。
 
 集合恒等式：
 
-图5
+![example](https://raw.githubusercontent.com/yaowenqing/blog.io/master/img/math_6.jpg)
+![example](https://raw.githubusercontent.com/yaowenqing/blog.io/master/img/math_7.jpg)
 
 ### 函数
 **定义1**：A和B为非空集合，从A到B的函数f是对元素的一种指派，对A的每个元素恰好指派B的一个元素。如果B中元素b是唯一由函数f指派给A中元素a的，则我们写成f（a）=b,如果f是从A到B的函数，就写成f：A→B
