@@ -43,6 +43,8 @@ description: 学习笔记。
 
 若干重要的等价式：
 
+![example](https://raw.githubusercontent.com/yaowenqing/blog.io/master/img/math_1.jpg)
+
 其中，德摩根律可以进行扩展
 
 由上表可以证明出很多式子之间的逻辑等价性。
@@ -65,3 +67,29 @@ description: 学习笔记。
 - P（x）的存在量词语句的否定，为非P（x）的的全称量词
 - P（x）的全称量词语句的否定，为非P（x）的的存在量词
 
+### 嵌套量词
+
+![example](https://raw.githubusercontent.com/yaowenqing/blog.io/master/img/math_2.jpg)
+
+### 推理规则
+
+命题逻辑的推理规则：
+
+量化命题的推理规则：
+
+### 证明导论
+- 直接证明法
+- 反证法
+- 归谬证明法
+
+---
+## 基本结构：集合、函数、序列、求和与矩阵
+
+### 集合
+集合是对象的一个无序的聚集，对象也称为集合的元素或成员。集合包含它的元素。
+- 相关定义：空集、文氏图、开区间、闭区间、集合的相等、全集、子集
+- 集合的大小：用基数cardinality来表示
+- 幂集(power set)是某集合所有子集的集合
+- 集合的笛卡尔积
+  
+### 集合运算
