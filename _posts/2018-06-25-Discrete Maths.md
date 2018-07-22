@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 离散数学
+title: Discrete Maths
 date: 2018-06-25
 categories: blog
-tags: 离散数学
-description: 学习笔记。
+tags: Discrete Maths
+description: Discrete Maths
 ---
+
+# 离散数学
 
 ## 前言
 
