@@ -3,7 +3,7 @@ layout: post
 title: Discrete Maths
 date: 2018-06-25
 categories: blog
-tags: Discrete Maths
+tags: Discrete Math
 description: Discrete Maths
 ---
 
