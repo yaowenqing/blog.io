@@ -41,7 +41,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Wenqing" # 你的名字
+      author: "Sakura" # 你的名字
       header-img: "img/1.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Sidebar settings
